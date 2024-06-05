@@ -106,9 +106,10 @@
 
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import resume from "../assets/resume/resume.pdf";
+import rituraj_resume from "../assets/resume/rituraj_resume.pdf";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -167,10 +168,10 @@ const Navbar = () => {
             </li>
           ))}
           {/* Download button */}
-          <li className="text-white  text-[18px] font-medium cursor-pointer">
-            <a href={resume} download="resume.pdf">
-              Resume
-            </a>
+          <li className="text-secondary  text-[18px] flex flex-row gap-10 font-medium cursor-pointer">
+            <a href="https://www.linkedin.com/in/riturajprasad/"> Linkedin</a>
+            <a href="https://github.com/rituraj2024">Github</a>
+            <a href={rituraj_resume}>Resume</a>
           </li>
         </ul>
 
@@ -202,10 +203,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <li className="text-white  text-[18px] font-medium cursor-pointer">
-                <a href={resume} download="resume.pdf">
-                  Resume
-                </a>
+
+              <li className="text-white  text-[18px] flex flex-col font-medium cursor-pointer">
+                <a href="https://github.com/rituraj2024"> Linkedin</a>
+                <a href="https://github.com/rituraj2024">Github</a>
+                <a href={rituraj_resume}>Resume</a>
               </li>
             </ul>
           </div>

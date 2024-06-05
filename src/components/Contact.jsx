@@ -70,7 +70,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden ;`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -139,13 +139,13 @@ const Contact = () => {
         style={{
           position: "absolute",
           left: "60%",
-          top: "20%",
-          right: "50px",
+          top: "25%",
+          // right: "50px",
           transform: "translateY(-50%)",
-          color: "#2CA9FF",
+          color: "#fff5ee  ",
         }}
       >
-        Save Earth.
+        Save Earth...Its Burning Now from our Greed.
       </h3>
     </div>
   );

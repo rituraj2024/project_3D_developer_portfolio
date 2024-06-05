@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import youtube from "./youtube.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,16 +21,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import nvidia from "./company/nvidia.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import codehelp from "./company/codehelp.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import devdetective from "./devdetective.png";
+import chair from "./chair.png";
+import razorpay from "./razorpay.png";
+import aditya from "./aditya.png";
+import nikshipta from "./nikshipta.png";
 export {
   logo,
   backend,
@@ -59,4 +64,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  youtube,
+  codehelp,
+  nvidia,
+  devdetective,
+  chair,
+  razorpay,
+  aditya,
+  nikshipta,
 };

@@ -4,28 +4,34 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  codehelp,
+  nvidia,
+  devdetective,
+  chair,
+  razorpay,
+  aditya,
+  nikshipta,
+  //nitaphospital,
 } from "../assets";
 
 export const navLinks = [
+  {
+    id: "",
+    title: "Home",
+  },
   {
     id: "about",
     title: "About",
@@ -43,11 +49,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Designing",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -73,18 +79,12 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  //{
-  // name: "TypeScript",
-  // icon: typescript,
-  //},
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  //{
-  //  name: "Redux Toolkit",
-  //  icon: redux,
-  // },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -97,75 +97,55 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  //{
-  //  name: "Three JS",
-  // icon: threejs,
-  //},
+
   {
     name: "git",
     icon: git,
   },
-  //{
-  //  name: "figma",
-  // icon: figma,
-  //},
-  //{
-  //  name: "docker",
-  //  icon: docker,
-  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "FULL STACK DEVELOPER USING MERN",
+    company_name: "CODEHELP",
+    icon: codehelp,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - SEPT. 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficient in HTML, Tailwind CSS, and JavaScript for building responsive and user-friendly interfaces.",
+      "Proficient in HTML, CSS, and JavaScript for building responsive and user-friendly interfaces.",
+      "Built robust server-side applications using Node.js and Express.js.",
+      "Gained expertise in MongoDB for efficient data storage and retrieval.",
+      "Build several projects like NITAP Health Care Website and NITAP Complaint Platform",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Structures and Algorithms (DSA)",
+    company_name: "CODEHELP",
+    icon: codehelp,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 -  June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I completed a comprehensive five-month DSA course from CodeHelp platform, where I learned:",
+      "Mastered arrays, linked lists, stacks, queues, trees, heaps, hash tables, and graphs.",
+      "Gained proficiency in divide and conquer, dynamic programming, greedy algorithms, and optimization techniques.",
+      "Studied graph traversal, shortest path, minimum spanning tree algorithms, and dynamic programming for complex problem-solving.",
+      "Participating in coding context on different platform ",
+      "Solved more than 500 question on different platform such as Leetcode,Codeforces ,AlgoUniversity and Geeksforgeeks",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Fundamentals of Deep Learning",
+    company_name: "NVIDIA",
+    icon: nvidia,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March ,2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I have completed a comprehensive nine-hour course on the Fundamentals of Deep Learning from Nvidia ",
+      "Understood the basics of neural networks, including neurons, activation functions, and architectures.",
+      "Learned about forward and backward propagation, loss functions, and optimization techniques like gradient descent.",
+      "Gained hands-on experience with popular deep learning frameworks such as TensorFlow and PyTorch for building and training neural networks.",
+      "Applied deep learning techniques to real-world problems, including image classification, object detection",
     ],
   },
 ];
@@ -173,93 +153,169 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      " I know him from last 2 years and as of now I can surely assure that he has critical thinking which is essential for software engineer, highly dedicated towards work, self-discipline and friendly with everyone.",
+    name: "Aditya Pratap Singh",
+    designation: "Undergraduate",
+    company: "NIT ANDHRA PRADESH",
+    image: aditya,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "An exceptional student in software engineering. His problem-solving skills in DSA and proficiency in web development are impressive. His passion for continuous learning, active participation in coding challenges, and collaborative, helpful nature make him an invaluable asset to any team.",
+    name: "Nikshipta",
+    designation: "Undergraduate",
+    company: "NIT ANDHRA PRADESH",
+    image: nikshipta,
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    name: "Arun Kumar Singh",
+    designation: "SDE 3",
+    company: "JP Morgan",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NITAP COMPAINT ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform designed to streamline the complaint submission and resolution process for over 2500 students and faculty members. ",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "MySql",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carrent,
+    source_code_link_github: "https://github.com/rituraj2024/complaintco",
+    source_code_link_youtube:
+      "https://youtu.be/kPhSBGEvmlc?si=2HU0aY3QJ_JKmLyN",
+  },
+  {
+    name: "NITAP HOSPITALE CARE",
+    description:
+      "Created a comprehensive healthcare platform for NITAP students and faculty, including appointment scheduling, patient management, and doctor registration.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link_github:
+      "https://github.com/rituraj2024/Nitaphealthcaresystem",
+    source_code_link_youtube:
+      "https://youtu.be/CEoYfkgtqKc?si=bEN5p2aF836bI_d0",
+  },
+  {
+    name: "Raj DevDetective Expert",
+    description:
+      "Developed DevDetective, a project using the API to search for user accounts. It features both dark and light mode functionality, providing an enhanced user experience.    ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
+    ],
+    image: devdetective,
+    source_code_link_github:
+      "https://github.com/rituraj2024/Dev-Detective-Project.git",
+    source_code_link_youtube: "https://riturajdevdetective.netlify.app/",
+  },
+  {
+    name: "COLOURED CHAIR ",
+    description:
+      "This project i have made to show case my frontend skill. On clicking on different different colours , the colour of the chair will get change. Try it once, its an Amazing one. ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "frontend",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "project",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chair,
+    source_code_link_github:
+      "https://github.com/rituraj2024/my_modern_chair.git",
+    source_code_link_youtube: "https://rituraj-my-modern-chair.netlify.app/",
+  },
+  {
+    name: "RAZORPAY  WEBSITE",
+    description:
+      "This project i have made to show case my frontend skill. On clicking on different different colours , the colour of the chair will get change. Try it once, its an Amazing one. ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: razorpay,
+    source_code_link_github: "https://github.com/rituraj2024/razorpayClone2",
+    source_code_link_youtube: "https://demorazorpayclone.netlify.app/",
   },
 ];
 
