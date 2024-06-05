@@ -161,7 +161,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "An exceptional student in software engineering. His problem-solving skills in DSA and proficiency in web development are impressive. His passion for continuous learning, active participation in coding challenges, and collaborative, helpful nature make him an invaluable asset to any team.",
+      "He excels in software engineering, with impressive problem-solving skills in DSA and web development, and is a dedicated learner, active participant in coding challenges, and helpful team member.",
     name: "Nikshipta",
     designation: "Undergraduate",
     company: "NIT ANDHRA PRADESH",

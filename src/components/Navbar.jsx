@@ -108,7 +108,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { namelogo, menu, close } from "../assets";
 import rituraj_resume from "../assets/resume/rituraj_resume.pdf";
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -145,7 +145,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={namelogo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             RITU RAJ &nbsp;
             <span className="sm:block hidden">

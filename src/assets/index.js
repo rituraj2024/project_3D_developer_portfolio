@@ -35,6 +35,7 @@ import chair from "./chair.png";
 import razorpay from "./razorpay.png";
 import aditya from "./aditya.png";
 import nikshipta from "./nikshipta.png";
+import namelogo from "./namelogo.png";
 export {
   logo,
   backend,
@@ -72,4 +73,5 @@ export {
   razorpay,
   aditya,
   nikshipta,
+  namelogo,
 };
