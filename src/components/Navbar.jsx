@@ -171,7 +171,7 @@ const Navbar = () => {
           <li className="text-secondary  text-[18px] flex flex-row gap-10 font-medium cursor-pointer">
             <a href="https://www.linkedin.com/in/riturajprasad/"> Linkedin</a>
             <a href="https://github.com/rituraj2024">Github</a>
-            <a href={rituraj_resume}>Resume</a>
+            {/* <a href={rituraj_resume}>Resume</a> */}
           </li>
         </ul>
 
@@ -207,7 +207,7 @@ const Navbar = () => {
               <li className="text-white  text-[18px] flex flex-col font-medium cursor-pointer">
                 <a href="https://github.com/rituraj2024"> Linkedin</a>
                 <a href="https://github.com/rituraj2024">Github</a>
-                <a href={rituraj_resume}>Resume</a>
+                {/* <a href={rituraj_resume}>Resume</a> */}
               </li>
             </ul>
           </div>
