@@ -167,14 +167,14 @@ const testimonials = [
     company: "NIT ANDHRA PRADESH",
     image: nikshipta,
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Arun Kumar Singh",
-    designation: "SDE 3",
-    company: "JP Morgan",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Arun Kumar Singh",
+  //   designation: "SDE 3",
+  //   company: "JP Morgan",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
