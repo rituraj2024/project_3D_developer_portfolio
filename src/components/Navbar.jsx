@@ -204,7 +204,7 @@ const Navbar = () => {
                 </li>
               ))}
 
-              <li className="text-white  text-[18px] flex flex-col gap-10 font-medium cursor-pointer">
+              <li className="text-secondary  text-[18px] flex flex-col gap-3 font-medium cursor-pointer">
                 <a href="https://www.linkedin.com/in/riturajprasad/">
                   {" "}
                   Linkedin
