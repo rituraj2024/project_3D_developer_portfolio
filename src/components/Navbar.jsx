@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { navLinks } from "../constants";
 import { namelogo, menu, close } from "../assets";
-import rituraj_resume from "../assets/resume/rituraj_resume.pdf";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -63,8 +63,21 @@ const Navbar = () => {
           ))}
           {/* Download button */}
           <li className="text-secondary  text-[18px] flex flex-row gap-10 font-medium cursor-pointer">
-            <a href="https://www.linkedin.com/in/riturajprasad/"> Linkedin</a>
-            <a href="https://github.com/rituraj2024">Github</a>
+            <a href="https://codolio.com/profile/rituraj2024" target="_blank">
+              {" "}
+              CodingProfile
+            </a>
+            <a
+              href="https://www.linkedin.com/in/riturajprasad/"
+              target="_blank"
+            >
+              {" "}
+              Linkedin
+            </a>
+
+            <a href="https://github.com/rituraj2024" target="_blank">
+              Github
+            </a>
             {/* <a href={rituraj_resume}>Resume</a> */}
           </li>
         </ul>
@@ -99,11 +112,23 @@ const Navbar = () => {
               ))}
 
               <li className="text-secondary  text-[18px] flex flex-col gap-3 font-medium cursor-pointer">
-                <a href="https://www.linkedin.com/in/riturajprasad/">
+                <a
+                  href="https://www.linkedin.com/in/riturajprasad/"
+                  target="_blank"
+                >
                   {" "}
                   Linkedin
                 </a>
-                <a href="https://github.com/rituraj2024">Github</a>
+                <a
+                  href="https://codolio.com/profile/rituraj2024"
+                  target="_blank"
+                >
+                  {" "}
+                  CodingProfile
+                </a>
+                <a href="https://github.com/rituraj2024" target="_blank">
+                  Github
+                </a>
                 {/* <a href={rituraj_resume}>Resume</a> */}
               </li>
             </ul>

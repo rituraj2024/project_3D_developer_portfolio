@@ -24,6 +24,9 @@ import {
   razorpay,
   aditya,
   nikshipta,
+  algou,
+  docker,
+  onlinejudge,
   //nitaphospital,
 } from "../assets";
 
@@ -102,9 +105,26 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Software Development Externship",
+    company_name: "AlgoUniversity(backend by Y-Combinator)",
+    icon: algou,
+    iconBg: "#383E56",
+    date: "Feb 2024 -  present",
+    points: [
+      "Building a scalable Online Judge Platform to practise DSA problems.",
+      "Used Docker for Containerisation and deployed the compiler on AWS",
+      "Studied different life cycle & phases of Software development",
+      "Got mentorship of senior engineers from GOogle London , Apple, Bytedance Singapore and Alphagrep Singapore",
+    ],
+  },
   {
     title: "FULL STACK DEVELOPER USING MERN",
     company_name: "CODEHELP",
@@ -179,7 +199,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: "NITAP COMPAINT ",
+    name: "CODE INNOVATE GROW ONLINE JUDGE ",
+    description:
+      "This project is a platform for practicing Data Structures and Algorithms (DSA) problems. It utilizes the MERN stack (MongoDB, Express.js, React.js, Node.js), Docker, and AWS for deployment.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "green-text-gradient",
+      },
+    ],
+    image: onlinejudge,
+    source_code_link_github: "https://github.com/rituraj2024/ONLINE_JUDGE",
+    source_code_link_youtube: "https://www.codeinnovate.tech",
+  },
+  {
+    name: "NITAP COMPAINT WEBSITE",
     description:
       "A web-based platform designed to streamline the complaint submission and resolution process for over 2500 students and faculty members. ",
     tags: [

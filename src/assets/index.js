@@ -27,6 +27,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import codehelp from "./company/codehelp.png";
+import algou from "./company/algou.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -36,6 +37,7 @@ import razorpay from "./razorpay.png";
 import aditya from "./aditya.png";
 import nikshipta from "./nikshipta.png";
 import namelogo from "./namelogo.png";
+import onlinejudge from "./onlinejudge.png";
 export {
   logo,
   backend,
@@ -74,4 +76,6 @@ export {
   aditya,
   nikshipta,
   namelogo,
+  algou,
+  onlinejudge,
 };
