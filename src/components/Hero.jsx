@@ -84,7 +84,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-0 ">
-        <h2 className="text-yellow-200 text-4xl font-bold mb-4  text-center top-5 relative">
+        <h2 className="text-yellow-200 text-4xl font-bold mb-0 text-center relative">
           Featured
         </h2>
 
