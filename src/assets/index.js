@@ -38,7 +38,6 @@ import aditya from "./aditya.png";
 import nikshipta from "./nikshipta.png";
 import namelogo from "./namelogo.png";
 import onlinejudge from "./onlinejudge.png";
-import codolio from "./codolio.png";
 export {
   logo,
   backend,
@@ -79,5 +78,4 @@ export {
   namelogo,
   algou,
   onlinejudge,
-  codolio,
 };
